@@ -5,16 +5,22 @@ In this short practice, you will be ordering results of **Sequelize** queries.
 
 ## Getting started
 
-Download starter. `cd` into __server__ folder, and install dependencies using
-`npm install`.
+Download starter.
 
-Create a __.env__ file modelled after __.env.example__, specifying the location 
-of the database to be created.
+Execute the __setup-commands.sh__ script from the root directory of this
+practice. 
 
-Use `sequelize-cli` to run the existing migrations and seeder files.  Use 
-`sqlite3` to check that the `Bands`, `Instruments`, `Musicians`, and 
-`MusicianInstruments` tables exists in your database and you have seed data 
-present. The tables created follow the following schema:
+```shell
+sh setup-commands.sh
+```
+
+View the contents of the script to see the commands that are executed. View the
+results in the terminal to confirm that setup was successful and the `Bands`,
+`Instruments`, `Musicians`, and `MusicianInstruments` tables exists in your
+database and you have seed data present. The tables created follow the following
+schema:
+
+
 
 ![band-musician-instrument-db-schema]
 
